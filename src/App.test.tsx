@@ -12,4 +12,4 @@ test('url is correct', () => {
   render(<App />);
   const linkElement = screen.getByTestId('learn-link');
   expect(linkElement.getAttribute('href')).toContain('reactjs');
-})
+});
